@@ -1,9 +1,8 @@
-FROM jenkinsci/jenkins:2.19
+FROM jenkins:2.7.2-alpine
 MAINTAINER Tri Nguyen <tnguyen@demandware.com>
 
 USER root
-RUN curl -sL https://deb.nodesource.com/setup_6.x | bash -
-RUN apt-get update && apt-get install -y nodejs
+RUN apk add --no-cache nodejs
 
 RUN chown -R jenkins /usr/lib/node_modules /usr/bin /usr/share
 
