@@ -1,0 +1,13 @@
+git:2.5.3
+git-client:1.21.0
+scm-api:1.2
+credentials:2.1.4
+credentials-binding:1.9
+ssh-credentials:1.12
+bitbucket:1.1.5
+slack:2.0.1
+ansicolor:0.4.2
+embeddable-build-status:1.9
+workflow-aggregator:2.2
+timestamper:1.8.4
+ws-cleanup:0.30
